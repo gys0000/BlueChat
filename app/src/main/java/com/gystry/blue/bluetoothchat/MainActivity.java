@@ -54,6 +54,8 @@ public class MainActivity extends SampleActivityBase {
         android.util.Log.e(TAG, "onCreate: 老的分支" );
         android.util.Log.e(TAG, "onCreate: 测试git分支-0--------------------" );
 
+        android.util.Log.e(TAG, "onCreate: 新分支第二次测试" );
+
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             BluetoothChatFragment fragment = new BluetoothChatFragment();
